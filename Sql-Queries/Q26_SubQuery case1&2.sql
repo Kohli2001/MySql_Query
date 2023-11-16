@@ -50,6 +50,8 @@ where depnto in (select deptno from emp where comm is not null ) and
       depnto = 40;
       
 
-      
+select sal, reverse(substr(sal,1)) from emp;    
+
+  
       
       
