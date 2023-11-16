@@ -19,10 +19,28 @@ select * from patient;
 
 
 
+
+
+
 alter table patient add foreign key (id) references doctor (id);  
 
 ALTER TABLE patient
 ADD FOREIGN KEY (id) REFERENCES doctor(id);
+
+
+drop table staff;
+
+truncate table try;
+
+select * from try;
+
+-- rename table try to Empaty;
+
+RENAME TABLE try TO Empaty;
+
+rename table Empaty to NullRecords;
+
+
 
 
 
